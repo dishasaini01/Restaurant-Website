@@ -1,0 +1,104 @@
+</style>
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: oldlace; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+<style type="css">
+body {
+	background-color: darkorange;
+	margin:80px 80px 100px 100px;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	text-align: center;
+	width:100%;
+	color:darkorange;
+     font="Brush Script Std";
+	background:#333;
+	padding:20px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+    font="Brush Script Std";
+	color:darkorange;
+	background:#333;
+	padding:8px;
+}
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: coral;
+  color: black;
+  align: center;
+  border: 2px solid BLACK ;
+}
+
+.button1:hover {
+  background-color: darkorange;
+  color: BLACK;
+}
+
+.button2 {
+  background-color: darkblue;
+  color: floralwhite;
+    align:center;
+  border: 2px solid Black;
+}
+
+.button2:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+</style>
+body, html {
+  height: 100%;
+    font="Brush Script Std";
+}
+.bg
+{
+  background-image: url("menu.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.div
+{
+    background-image: url(wall.jpg)
+    height: 100%;
+    width:100%;
+    background-position: center;
+}
